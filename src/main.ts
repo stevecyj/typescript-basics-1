@@ -39,8 +39,8 @@ class CreateRoom {
   }
 }
 
-const roomJohn = new CreateRoom("John")
-const roomJane = new CreateRoom("Jane")
+const john = new CreateRoom("John")
+const jane = new CreateRoom("Jane")
 
-roomJohn.family
-roomJohn.addFamilyMember("John")
+john.family
+john.addFamilyMember("John")
