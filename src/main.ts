@@ -44,3 +44,4 @@ const jane = new CreateRoom("Jane")
 
 john.family
 john.addFamilyMember("John")
+john.cleanRoom("soap")
