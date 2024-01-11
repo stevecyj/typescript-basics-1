@@ -14,3 +14,7 @@ const person5: DeveloperNewType = {
 console.log(
   `${person5.name} is ${person5.age} years old and is a developer: ${person5.isDev}`
 )
+
+type PersonNewName = string
+const person6: PersonNewName = "John"
+console.log(`New Developer is ${person6}`)
