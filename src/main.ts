@@ -20,11 +20,10 @@ const person6: PersonNewName = "John"
 console.log(`New Developer is ${person6}`)
 
 class CreateRoom {
-  public room: string
   private family: string[] = []
-  constructor(room: string) {
-    this.room = `${name}'s room`
-  }
+  readonly birthDayJohn: string = "1982-12-12"
+  private readonly birthDayJane: string = "1985-12-12"
+  constructor(public room: string) {}
 
   addFamilyMember(name: string) {
     this.family.push(name)
@@ -45,3 +44,6 @@ const jane = new CreateRoom("Jane")
 john.family
 john.addFamilyMember("John")
 john.cleanRoom("soap")
+
+john.birthDayJohn
+john.birthDayJane
